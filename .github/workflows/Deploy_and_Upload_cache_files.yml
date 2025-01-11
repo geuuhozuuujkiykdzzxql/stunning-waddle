@@ -44,7 +44,7 @@ jobs:
         run: npm run build
 
       - name: Download static assets (tiger jpegs)
-        run: curl https://github.com/geuuhozuuujkiykdzzxql/sunning-twaddle/releases/download/v0/tigerPics.tar.gz -o tigerPics.tar.gz
+        run: curl -L https://github.com/geuuhozuuujkiykdzzxql/sunning-twaddle/releases/download/v0/tigerPics.tar.gz -o tigerPics.tar.gz
 
       - name: Unzip static assets (tiger jpegs)
         run: tar xzf tigerPics.tar.gz
