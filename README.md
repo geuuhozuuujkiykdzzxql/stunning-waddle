@@ -1,5 +1,4 @@
-# Mantine Vite template
+# Trying out deploying to Github Pages using the Mantine Vite template
 
-Get started with the template by clicking `Use this template` button on the top of the page.
 
-[Documentation](https://mantine.dev/guides/vite/)
+[Mantine Vite Documentation](https://mantine.dev/guides/vite/)
