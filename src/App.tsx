@@ -9,9 +9,9 @@ function Demo() {
     <Group>
       Hey Hey!
       <Carousel withIndicators height={500}>
-      <Carousel.Slide><Image  h={500} w="auto" src="/tiger_cubs.jpg"/></Carousel.Slide>
-      <Carousel.Slide><Image  h={500} w="auto" src="/babyTiger.jpg"/></Carousel.Slide>
-      <Carousel.Slide><Image   h={500} w="auto" src="/basketOfCubs.jpg"/></Carousel.Slide>
+      <Carousel.Slide><Image  h={500} w="auto" src="/stunning-waddle/tiger_cubs.jpg"/></Carousel.Slide>
+      <Carousel.Slide><Image  h={500} w="auto" src="/stunning-waddle/babyTiger.jpg"/></Carousel.Slide>
+      <Carousel.Slide><Image   h={500} w="auto" src="/stunning-waddle/basketOfCubs.jpg"/></Carousel.Slide>
       </Carousel>
     </Group>
   );
