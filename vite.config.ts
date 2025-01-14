@@ -9,7 +9,6 @@ export default defineConfig({
     copyPublicDir: false,
   },
   assetsInclude: [
-    '/all_grades_goals_forms_solutions/*/*/*.*',
-    '/grade_22_goals_forms_solutions/*/*/*.*',
+    '/*.jpg',
   ],
 })
