@@ -50,7 +50,9 @@ jobs:
         run: tar xzf tigerPics.tar.gz
 
       - name: Move static assets (tiger jpegs) to dist
-        run: mv tigerPics/* ./dist
+        run: |
+          mkdir -p ./dist/public
+          mv tigerPics/* ./dist/public
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
