@@ -9,6 +9,6 @@ export default defineConfig({
     copyPublicDir: false,
   },
   assetsInclude: [
-    '/*.jpg',
+    '**/*.jpg',
   ],
 })
