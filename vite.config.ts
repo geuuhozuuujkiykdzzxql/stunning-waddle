@@ -8,7 +8,4 @@ export default defineConfig({
   build: {
     copyPublicDir: false,
   },
-  // assetsInclude: [
-  //   '**/*.jpg',
-  // ],
 })
