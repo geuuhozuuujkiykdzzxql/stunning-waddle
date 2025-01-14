@@ -51,8 +51,8 @@ jobs:
 
       - name: Move static assets (tiger jpegs) to dist
         run: |
-          mkdir -p ./dist/public
-          mv tigerPics/* ./dist/public
+          mkdir -p ./dist
+          mv tigerPics/* ./dist
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
